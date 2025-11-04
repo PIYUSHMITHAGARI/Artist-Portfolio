@@ -37,7 +37,7 @@ This is a professional artist portfolio website featuring:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/artist-portfolio.git
+   git clone https://github.com/PIYUSHMITHAGARI/Artist-Portfolio.git
    cd artist-portfolio
    ```
 
