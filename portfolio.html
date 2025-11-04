@@ -1,27 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Artist Portfolio — ARTOPX </title>
-    <link rel="stylesheet" href="portfolioStyle.css">
-    <meta name="description"
-        content="Minimal interactive portfolio for a fine artist showcasing artwork, bio, skills, experience and contact details.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Portfolio — PRIYANSHU MITHAGARI</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header class="site-header">
         <div class="container header-inner">
             <a class="logo" href="#">PRIYANSHU MITHAGARI</a>
-            <button id="menuToggle" aria-label="Toggle navigation">☰</button>
+            <button id="menuToggle" aria-label="Toggle navigation">
+                <span class="hamburger">☰</span>
+            </button>
             <nav id="mainNav" class="main-nav">
-                <a href="#about">About</a>
-                <a href="#works">Works</a>
-                <a href="#experience">Experience</a>
-                <a href="#contact">Contact</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#works" class="nav-link">Works</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
             </nav>
         </div>
     </header>
@@ -29,62 +26,51 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h1 class="artist-name">PRIYANSHU MITHAGARI</h1>
-                <p class="tagline">Potrait • Water Colour Landscape • Sketching</p>
-                <p class="artist-statement">
+                <h1 class="artist-name fade-in">PRIYANSHU MITHAGARI</h1>
+                <p class="tagline fade-in">Portrait • Water Colour Landscape • Sketching</p>
+                <p class="artist-statement fade-in">
                     A dedicated fine artist with formal art education from Konkan, specializing in realistic
                     landscapes and portraits. Brings emotion, precision, and storytelling into each artwork.
                     Skilled in traditional techniques with a strong grasp of composition, detail, and color
                     harmony. Work has been showcased in group exhibitions at renowned galleries like
                     Jahangir Art Gallery and Nehru Art Gallery. Also completed commercial wall art projects,
                     blending creativity with client vision. Passionate about exploring new themes rooted in
-                    nature and culture.Continuously learning and evolving to bring fresh perspectives to every
+                    nature and culture. Continuously learning and evolving to bring fresh perspectives to every
                     canvas.
                 </p>
-                <a class="cta" href="#works">View Works</a>
+                <a class="cta fade-in" href="#works">View Works</a>
             </div>
         </section>
 
         <section id="about" class="about container">
+            <h2 class="fade-in">About</h2>
             <div class="about-grid">
-                <div class="about-left">
-                    <h2>About</h2>
+                <div class="about-left fade-in">
                     <p class="short-bio">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat qui, illo deserunt vero
-                        nesciunt a pariatur nihil consectetur animi voluptate similique debitis tempora neque sit
-                        cupiditate fugiat distinctio fugit at iusto, aliquam incidunt rerum mollitia quis. Maxime
-                        incidunt, animi et quos unde dolorem soluta voluptatibus libero. A provident quis vitae!
+                        Priyanshu Mithagari is a passionate fine artist based in Alibag, Maharashtra, with a deep connection to the natural beauty of the Konkan region. His artistic journey began at a young age, and he has since developed a distinctive style that blends traditional techniques with contemporary sensibilities. Priyanshu's work reflects his fascination with the interplay of light, texture, and emotion, capturing moments of quiet beauty in both landscapes and portraits.
                     </p>
 
                     <ul class="personal-list">
-                        <li><strong>Location:</strong> ALibag, Maharastra</li>
-                        <li><strong>Email:</strong> <a href="mailto:artist@email.com">priyanshu.mithagari@gmail.com</a>
-                        </li>
+                        <li><strong>Location:</strong> Alibag, Maharashtra</li>
+                        <li><strong>Email:</strong> <a href="mailto:priyanshu.mithagari@gmail.com">priyanshu.mithagari@gmail.com</a></li>
                         <li><strong>Phone:</strong> +91 98765 43210</li>
                         <li><strong>Social:</strong>
                             <span class="socials">
-                                <a href="#" aria-label="Instagram">IG</a>
-                                <a href="#" aria-label="Behance">BE</a>
-                                <a href="#" aria-label="LinkedIn">LI</a>
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                             </span>
                         </li>
                     </ul>
 
                     <h3>Artist Statement</h3>
                     <p class="statement">
-                        A dedicated fine artist with formal art education from Konkan, specializing in realistic
-                        landscapes and portraits. Brings emotion, precision, and storytelling into each artwork.
-                        Skilled in traditional techniques with a strong grasp of composition, detail, and color
-                        harmony. Work has been showcased in group exhibitions at renowned galleries like
-                        Jahangir Art Gallery and Nehru Art Gallery. Also completed commercial wall art projects,
-                        blending creativity with client vision. Passionate about exploring new themes rooted in
-                        nature and culture.Continuously learning and evolving to bring fresh perspectives to every
-                        canvas.
+                        My artistic practice is rooted in observation and emotional connection. I seek to capture not just what I see, but what I feel when confronted with a landscape or a person. Each brushstroke is a deliberate choice, each color a carefully considered emotion. My work in portraiture aims to reveal the inner world of my subjects, while my landscapes seek to preserve fleeting moments of natural beauty. I believe art should speak to our shared human experience, connecting us through visual storytelling.
                     </p>
                 </div>
 
-                <aside class="about-right">
-                    <h3>Quick facts</h3>
+                <aside class="about-right fade-in">
+                    <h3>Quick Facts</h3>
                     <dl class="facts">
                         <div>
                             <dt>Born</dt>
@@ -92,107 +78,101 @@
                         </div>
                         <div>
                             <dt>Education</dt>
-                            <dd>MFA / BFA or Diploma</dd>
+                            <dd>BFA from JJ School of Art</dd>
                         </div>
                         <div>
                             <dt>Primary Media</dt>
-                            <dd>Oil, Acrylic, Mixed Media, Sculpture</dd>
+                            <dd>Oil, Watercolor, Charcoal, Mixed Media</dd>
                         </div>
                         <div>
                             <dt>Exhibitions</dt>
-                            <dd>Gallery A (2024), Group Show B (2023)</dd>
+                            <dd>Jahangir Art Gallery (2024), Nehru Art Gallery (2023)</dd>
                         </div>
                     </dl>
 
-                    <h3>Skills & Tools</h3>
+                    <h3>Skills & Techniques</h3>
                     <ul class="skills">
-                        <li>Drawing & Composition</li>
-                        <li>Large-scale painting</li>
-                        <li>Sculpting & Assemblage</li>
-                        <li>Studio installation</li>
+                        <li>Portrait Drawing & Painting</li>
+                        <li>Watercolor Landscapes</li>
+                        <li>Composition & Color Theory</li>
+                        <li>Large-scale Murals</li>
+                        <li>Mixed Media Art</li>
                     </ul>
 
                     <h3>Objective</h3>
                     <p class="objective">
-                        To create work that invites quiet reflection and makes everyday objects strange again. Seeking
-                        solo exhibitions and collaborative projects.
+                        To create meaningful art that resonates with viewers and captures the beauty of both human expression and natural landscapes. Seeking opportunities for solo exhibitions and collaborative projects that push creative boundaries.
                     </p>
                 </aside>
             </div>
 
-
             <!-- Featured Paintings Section -->
-            <section id="featured" class="featured container">
+            <section id="featured" class="featured container fade-in">
                 <h2>Featured Paintings</h2>
 
-                <div class="paint-row">
+                <div class="paint-row fade-in">
                     <div class="paint-img">
-                        <img src="Images/landscape2.jpg" alt="Painting 1">
+                        <img src="Images/landscape2.jpg" alt="Whispers of the Valley">
                     </div>
                     <div class="paint-desc">
                         <h3>Whispers of the Valley</h3>
                         <p>
                             An exploration of light and shadow inspired by morning fog over hills.
                             Oil on canvas, 2024. The work captures the silence of early dawn using muted tones and soft
-                            texture.
+                            texture, conveying a sense of tranquility and mystery.
                         </p>
                     </div>
                 </div>
 
-                <div class="paint-row reverse">
+                <div class="paint-row reverse fade-in">
                     <div class="paint-img">
-                        <img src="Images/landscape1.jpg" alt="Painting 2">
+                        <img src="Images/landscape1.jpg" alt="Golden Horizon">
                     </div>
                     <div class="paint-desc">
                         <h3>Golden Horizon</h3>
                         <p>
                             A reflection on change and persistence, painted during sunset hours.
-                            Acrylic and gold leaf on wood panel, 2023.
+                            Acrylic and gold leaf on wood panel, 2023. This piece explores the transient beauty of light
+                            at day's end, with layered textures creating depth and movement.
                         </p>
                     </div>
                 </div>
 
-                <div class="paint-row">
+                <div class="paint-row fade-in">
                     <div class="paint-img">
-                        <img src="Images/potrait1.jpg" alt="Painting 3">
+                        <img src="Images/potrait1.jpg" alt="Silent Garden">
                     </div>
                     <div class="paint-desc">
                         <h3>Silent Garden</h3>
                         <p>
                             Mixed-media piece featuring pressed flowers, pigments, and resin layers.
-                            It investigates memory through delicate organic forms.
+                            It investigates memory through delicate organic forms, creating a dialogue between
+                            preservation and decay, past and present.
                         </p>
                     </div>
                 </div>
             </section>
-
         </section>
 
         <section id="works" class="works container">
-            <h2>Selected Works</h2>
-            <p class="muted">Click an image to enlarge. (Replace the sample images with your own.)</p>
-
+            <h2 class="fade-in">Selected Works</h2>
             <div class="gallery" id="gallery">
-                <figure class="art-item" tabindex="0" data-title="Untitled #1" data-desc="Oil on canvas, 2024"
-                    data-src="Images/potrait1.jpg">
+                <figure class="art-item fade-in" tabindex="0" data-title="Untitled #1" data-desc="Oil on canvas, 2024" data-src="Images/potrait1.jpg">
                     <img src="Images/potrait1.jpg" alt="Untitled 1">
                     <figcaption>Untitled #1 — 2024</figcaption>
                 </figure>
 
-                <figure class="art-item" tabindex="0" data-title="Untitled #2" data-desc="Mixed media, 2023"
-                    data-src="Images/potrait2.jpg">
+                <figure class="art-item fade-in" tabindex="0" data-title="Untitled #2" data-desc="Mixed media, 2023" data-src="Images/potrait2.jpg">
                     <img src="Images/potrait2.jpg" alt="Untitled 2">
                     <figcaption>Untitled #2 — 2023</figcaption>
                 </figure>
 
-                <figure class="art-item" tabindex="0" data-title="Study in Blue" data-desc="Acrylic on board, 2022"
-                    data-src="Images/landscape2.jpg">
+                <figure class="art-item fade-in" tabindex="0" data-title="Study in Blue" data-desc="Acrylic on board, 2022" data-src="Images/landscape2.jpg">
                     <img src="Images/landscape2.jpg" alt="Study in Blue">
                     <figcaption>Study in Blue — 2022</figcaption>
                 </figure>
 
-                <figure class="art-item" tabindex="0" data-title="Small Sculpture" data-desc="Found objects, 2021"
-                    data-src="Images/landscape1.jpg">
+                <figure class="art-item fade-in" tabindex="0" data-title="Small Sculpture" data-desc="Found objects, 2021" data-src="Images/landscape1.jpg">
                     <img src="Images/landscape1.jpg" alt="Small Sculpture">
                     <figcaption>Small Sculpture — 2021</figcaption>
                 </figure>
@@ -210,25 +190,34 @@
             </div>
         </div>
 
-        <section id="experience" class="experience container">
+        <section id="experience" class="experience container fade-in">
             <h2>Experience & Achievements</h2>
             <ul class="timeline">
-                <li><strong>2024</strong> — Solo exhibition at Gallery A.</li>
-                <li><strong>2023</strong> — Residency, Studio B.</li>
-                <li><strong>2022</strong> — Award: Young Artist Prize (shortlist).</li>
+                <li><strong>2024</strong> — Group exhibition at Jahangir Art Gallery, Mumbai.</li>
+                <li><strong>2023</strong> — Featured artist at Nehru Art Gallery, Pune.</li>
+                <li><strong>2022</strong> — Commissioned for large-scale mural at corporate headquarters, Mumbai.</li>
+                <li><strong>2021</strong> — Art residency at Konkan Art Foundation, Alibag.</li>
+                <li><strong>2020</strong> — First solo exhibition "Echoes of Konkan" at local gallery.</li>
             </ul>
         </section>
 
-        <section id="contact" class="contact container">
+        <section id="contact" class="contact container fade-in">
             <h2>Contact</h2>
             <div class="contact-grid">
-                <form class="contact-form"
-                    onsubmit="event.preventDefault(); alert('Thanks — contact form is demo only.');">
-                    <label>Name <input required type="text" name="name"></label>
-                    <label>Email <input required type="email" name="email"></label>
-                    <label>Message <textarea required name="message" rows="4"></textarea></label>
-                    <button class="btn" type="submit">Send</button>
+                <form class="contact-form" id="contactForm">
+                    <label>Name <input required type="text" name="name" id="name"></label>
+                    <label>Email <input required type="email" name="email" id="email"></label>
+                    <label>Message <textarea required name="message" id="message" rows="4"></textarea></label>
+                    <button class="btn" type="submit">Send Message</button>
                 </form>
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Alibag, Maharashtra, India</p>
+                    <p><i class="fas fa-envelope"></i> priyanshu.mithagari@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-clock"></i> Response within 24 hours</p>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -236,67 +225,27 @@
     <footer class="site-footer">
         <div class="footer-container container">
             <div class="footer-info">
-                <h3>[Artist Full Name]</h3>
+                <h3>PRIYANSHU MITHAGARI</h3>
                 <p><i class="fas fa-phone"></i> +91 98765 43210</p>
-                <p><i class="fas fa-envelope"></i> artist.email@example.com</p>
+                <p><i class="fas fa-envelope"></i> priyanshu.mithagari@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Alibag, Maharashtra, India</p>
             </div>
 
             <div class="social-icons">
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="your-cv-link-here" target="_blank"><i class="fas fa-file-alt"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.behance.net/" target="_blank" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank" aria-label="CV"><i class="fas fa-file-alt"></i></a>
             </div>
-
-        </div>
         </div>
 
         <p class="copyright">
-            © 2025 [Artist Name]. All rights reserved.
+            © 2025 Priyanshu Mithagari. All rights reserved.
         </p>
     </footer>
 
     <!-- Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-
-    <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-        const menuToggle = document.getElementById('menuToggle');
-        const mainNav = document.getElementById('mainNav');
-        menuToggle.addEventListener('click', () => mainNav.classList.toggle('open'));
-
-        const gallery = document.getElementById('gallery');
-        const lightbox = document.getElementById('lightbox');
-        const lbImage = document.getElementById('lbImage');
-        const lbTitle = document.getElementById('lbTitle');
-        const lbDesc = document.getElementById('lbDesc');
-        const closeLb = document.getElementById('closeLb');
-
-        function openLightbox(src, title, desc) {
-            lbImage.src = src;
-            lbImage.alt = title;
-            lbTitle.textContent = title;
-            lbDesc.textContent = desc;
-            lightbox.classList.add('visible');
-            lightbox.setAttribute('aria-hidden', 'false');
-        }
-
-        function closeLightbox() {
-            lightbox.classList.remove('visible');
-            lightbox.setAttribute('aria-hidden', 'true');
-            lbImage.src = '';
-        }
-
-        gallery.addEventListener('click', (e) => {
-            const fig = e.target.closest('.art-item');
-            if (!fig) return;
-            openLightbox(fig.dataset.src, fig.dataset.title, fig.dataset.desc);
-        });
-
-        closeLb.addEventListener('click', closeLightbox);
-        lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
-        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
-    </script>
+    <script src="script.js"></script>
 </body>
-
 </html>
