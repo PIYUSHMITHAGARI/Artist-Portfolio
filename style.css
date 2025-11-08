@@ -179,8 +179,9 @@ body {
     text-align: center;
     position: relative;
     display: inline-block;
-    left: 50%;
+    left: 45%;
     transform: translateX(-50%);
+    margin-right: 500px;
 }
 
 .about h2::after {
@@ -349,7 +350,7 @@ aside {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 2rem;
 }
 
